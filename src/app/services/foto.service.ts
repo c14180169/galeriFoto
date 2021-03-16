@@ -33,6 +33,8 @@ export class FotoService {
       key : this.keyFoto,
       value : JSON.stringify(this.dataFoto)
     });
+
+    this.simpanFoto(foto);
   }
 
   public async simpanFoto(foto : CameraPhoto){
